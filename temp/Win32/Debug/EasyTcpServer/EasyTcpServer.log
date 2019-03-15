@@ -1,0 +1,3 @@
+﻿  server.cpp
+d:\vs 2017 project\alltest\easytcpserver\easytcpsever.hpp(254): warning C4715: “EasyTcpSever::sendToAllData”: 不是所有的控件路径都返回值
+  EasyTcpServer.vcxproj -> D:\VS 2017 Project\AllTest\/bin/Win32\Debug\EasyTcpServer.exe
