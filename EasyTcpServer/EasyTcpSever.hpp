@@ -155,7 +155,7 @@ public:
 
 		FD_SET(_socket, &fd_read);
 		FD_SET(_socket, &fd_write);
-		FD_SET(_socket, &fd_read);
+		FD_SET(_socket, &fd_exp);
 
 		for (int n = (int)g_socklist.size() - 1; n >= 0; n--) {
 			FD_SET(g_socklist[n]->sockfd(), &fd_read);
